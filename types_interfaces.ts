@@ -18,10 +18,10 @@ function print(coord: Point) {}
 function print2(coord: srtingOrNumber) {}
 function print3(coord: IPoint) {}
 
-interface Test {
+interface Breast {
     a: number;
 }
-interface Test {
+interface Breast {
     b: number;
 }
 

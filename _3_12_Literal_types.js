@@ -1,8 +1,6 @@
-let c1: 'test' = 'test';
-
-type actionType = 'up' | 'down';
-
-function performAction(action: actionType): -1 | 1 {
+"use strict";
+var c1 = 'test';
+function performAction(action) {
     // принимаем на вход литеральный стоковый тип, а возвращаем 1 или -1
     switch (action) {
         case 'down':
@@ -11,8 +9,7 @@ function performAction(action: actionType): -1 | 1 {
             return 1;
     }
 }
-
-function performAction2(action: actionType | ComplexAction) {
+function performAction2(action) {
     //
     switch (action) {
         case 'down':
@@ -20,7 +17,4 @@ function performAction2(action: actionType | ComplexAction) {
         case 'up':
             return 1;
     }
-}
-interface ComplexAction {
-    s: string;
 }

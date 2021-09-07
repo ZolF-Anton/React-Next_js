@@ -8,11 +8,11 @@ let d: string[] = ['sdd', 'sdsdsf', 'sdsds', 'sdsdsd'];
 
 let e: any = 3; // не рекомендуется, типизация обязательна
 
-function test(a: string): number | string {
+function atest(a: string): number | string {
     return 7;
 }
 
-const test2 = (a: number) => {
+const btest2 = (a: number) => {
     return a * 2;
 };
 
