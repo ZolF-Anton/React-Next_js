@@ -2,6 +2,17 @@
 	"folders": [
 		{
 			"path": ".."
+		},
+		{
+			"name": "pokemon-game",
+			"path": "..\\..\\pokemon-game\\pokemon-game"
+		},
+		{
+			"name": "react-gid-min",
+			"path": "..\\..\\react-gid-min"
+		},
+		{
+			"path": "..\\..\\zReact_HOOKS"
 		}
 	],
 	"settings": {}
